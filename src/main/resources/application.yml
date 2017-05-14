@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ietach_cernet_services_oauth?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    org.springframework.security: DEBUG
+server:
+  port: 8083
